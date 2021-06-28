@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project Xml_structure="simple">
+  <Models>
+    <ModelRelationshipContainer>
+      <ModelChildren>
+        <Usage From="IDIO.main" Id="IDIO.mainToIO.buttonbox" Name="1" To="IDIO.buttonbox" />
+        <Usage From="IDIO.main" Id="IDIO.mainToh1.main" Name="7" To="IDh1.main" />
+        <Usage From="IDIO.main" Id="IDIO.mainToh2.main" Name="7" To="IDh2.main" />
+        <Usage From="IDIO.main" Id="IDIO.mainToh3.main" Name="7" To="IDh3.main" />
+        <Usage From="IDIO.main" Id="IDIO.mainToh4.main" Name="7" To="IDh4.main" />
+        <Usage From="IDIO.main" Id="IDIO.mainToh5.main" Name="7" To="IDh5.main" />
+        <Usage From="IDIO.main" Id="IDIO.mainToh6.main" Name="7" To="IDh6.main" />
+        <Usage From="IDdraw_graph.main" Id="IDdraw_graph.mainTodraw_graph.draw_graph" Name="1" To="IDdraw_graph.draw_graph" />
+        <Usage From="IDdraw_graph.main" Id="IDdraw_graph.mainToget_module_usage.main" Name="1" To="IDget_module_usage.main" />
+        <Usage From="IDget_module_usage.get_files_with_modules" Id="IDget_module_usage.get_files_with_modulesToget_file_paths.get_paths" Name="2" To="IDget_file_paths.get_paths" />
+        <Usage From="IDget_module_usage.main" Id="IDget_module_usage.mainToget_module_usage.get_files_with_modules" Name="1" To="IDget_module_usage.get_files_with_modules" />
+        <Usage From="IDget_module_usage.main" Id="IDget_module_usage.mainToget_module_usage.get_node_data" Name="1" To="IDget_module_usage.get_node_data" />
+        <Usage From="IDh1.main" Id="IDh1.mainTodraw_graph.main" Name="3" To="IDdraw_graph.main" />
+        <Usage From="IDh1.main" Id="IDh1.mainToget_module_usage.main" Name="3" To="IDget_module_usage.main" />
+        <Usage From="IDget_function_usage.get_function_data" Id="IDget_function_usage.get_function_dataToget_function_usage.getmembers" Name="1" To="IDget_function_usage.getmembers" />
+        <Usage From="IDget_function_usage.get_function_data" Id="IDget_function_usage.get_function_dataToget_function_usage.getsource" Name="1" To="IDget_function_usage.getsource" />
+        <Usage From="IDget_function_usage.get_function_data" Id="IDget_function_usage.get_function_dataToget_function_usage.isfunction" Name="1" To="IDget_function_usage.isfunction" />
+        <Usage From="IDget_function_usage.main" Id="IDget_function_usage.mainToget_file_paths.get_paths" Name="1" To="IDget_file_paths.get_paths" />
+        <Usage From="IDget_function_usage.main" Id="IDget_function_usage.mainToget_function_usage.get_function_data" Name="1" To="IDget_function_usage.get_function_data" />
+        <Usage From="IDh2.main" Id="IDh2.mainTodraw_graph.main" Name="3" To="IDdraw_graph.main" />
+        <Usage From="IDh2.main" Id="IDh2.mainToget_function_usage.main" Name="3" To="IDget_function_usage.main" />
+        <Usage From="IDdraw_graphH3.main" Id="IDdraw_graphH3.mainTodraw_graphH3.draw_graphH3" Name="1" To="IDdraw_graphH3.draw_graphH3" />
+        <Usage From="IDget_modules_structure.get_files_data" Id="IDget_modules_structure.get_files_dataToget_function_usage.getmembers" Name="1" To="IDget_function_usage.getmembers" />
+        <Usage From="IDget_modules_structure.get_files_data" Id="IDget_modules_structure.get_files_dataToget_function_usage.isfunction" Name="1" To="IDget_function_usage.isfunction" />
+        <Usage From="IDget_modules_structure.get_files_data" Id="IDget_modules_structure.get_files_dataToget_modules_structure.getmembers" Name="1" To="IDget_modules_structure.getmembers" />
+        <Usage From="IDget_modules_structure.get_files_data" Id="IDget_modules_structure.get_files_dataToget_modules_structure.isfunction" Name="1" To="IDget_modules_structure.isfunction" />
+        <Usage From="IDget_modules_structure.get_modules_structure" Id="IDget_modules_structure.get_modules_structureToget_modules_structure.get_directories_name" Name="1" To="IDget_modules_structure.get_directories_name" />
+        <Usage From="IDget_modules_structure.get_modules_structure" Id="IDget_modules_structure.get_modules_structureToget_modules_structure.get_files_data" Name="1" To="IDget_modules_structure.get_files_data" />
+        <Usage From="IDget_modules_structure.get_modules_structure" Id="IDget_modules_structure.get_modules_structureToget_paths.get_modules_for_each_path" Name="1" To="IDget_paths.get_modules_for_each_path" />
+        <Usage From="IDget_modules_structure.get_modules_structure" Id="IDget_modules_structure.get_modules_structureToget_paths.get_paths" Name="1" To="IDget_paths.get_paths" />
+        <Usage From="IDget_modules_structure.getmembers" Id="IDget_modules_structure.getmembersToget_function_usage.getmembers" Name="1" To="IDget_function_usage.getmembers" />
+        <Usage From="IDget_modules_structure.getsource" Id="IDget_modules_structure.getsourceToget_function_usage.getsource" Name="2" To="IDget_function_usage.getsource" />
+        <Usage From="IDget_modules_structure.isfunction" Id="IDget_modules_structure.isfunctionToget_function_usage.isfunction" Name="1" To="IDget_function_usage.isfunction" />
+        <Usage From="IDget_modules_structure.main" Id="IDget_modules_structure.mainToget_function_usage.main" Name="1" To="IDget_function_usage.main" />
+        <Usage From="IDget_modules_structure.main" Id="IDget_modules_structure.mainToget_modules_structure.get_modules_structure" Name="1" To="IDget_modules_structure.get_modules_structure" />
+        <Usage From="IDh3.main" Id="IDh3.mainTodraw_graphH3.draw_graphH3" Name="1" To="IDdraw_graphH3.draw_graphH3" />
+        <Usage From="IDh3.main" Id="IDh3.mainTodraw_graphH3.main" Name="1" To="IDdraw_graphH3.main" />
+        <Usage From="IDh3.main" Id="IDh3.mainToget_modules_structure.get_modules_structure" Name="1" To="IDget_modules_structure.get_modules_structure" />
+        <Usage From="IDh3.main" Id="IDh3.mainToget_modules_structure.main" Name="1" To="IDget_modules_structure.main" />
+        <Usage From="IDh3.main" Id="IDh3.mainToget_paths.get_modules_for_each_path" Name="1" To="IDget_paths.get_modules_for_each_path" />
+        <Usage From="IDh3.main" Id="IDh3.mainToget_paths.get_paths" Name="1" To="IDget_paths.get_paths" />
+        <Usage From="IDh3.main" Id="IDh3.mainToreader.parse_file" Name="1" To="IDreader.parse_file" />
+        <Usage From="IDreader.parse_file" Id="IDreader.parse_fileToreader.indent_pos" Name="5" To="IDreader.indent_pos" />
+        <Usage From="IDexport_to_xml.export_to_xml_H1_H2" Id="IDexport_to_xml.export_to_xml_H1_H2Toexport_to_xml.indent" Name="1" To="IDexport_to_xml.indent" />
+        <Usage From="IDexport_to_xml.export_to_xml_H3" Id="IDexport_to_xml.export_to_xml_H3Toexport_to_xml.indent" Name="1" To="IDexport_to_xml.indent" />
+        <Usage From="IDexport_to_xml.main" Id="IDexport_to_xml.mainToexport_to_xml.export_to_xml_H1_H2" Name="1" To="IDexport_to_xml.export_to_xml_H1_H2" />
+        <Usage From="IDexport_to_xml.main" Id="IDexport_to_xml.mainToexport_to_xml.export_to_xml_H3" Name="1" To="IDexport_to_xml.export_to_xml_H3" />
+        <Usage From="IDh4.main" Id="IDh4.mainToget_module_usage.main" Name="10" To="IDget_module_usage.main" />
+        <Usage From="IDh4.main" Id="IDh4.mainToget_function_usage.main" Name="10" To="IDget_function_usage.main" />
+        <Usage From="IDh4.main" Id="IDh4.mainToget_modules_structure.main" Name="10" To="IDget_modules_structure.main" />
+        <Usage From="IDh4.main" Id="IDh4.mainToexport_to_xml.main" Name="10" To="IDexport_to_xml.main" />
+        <Usage From="IDdraw_multiple_graphs.draw_multiple_graph" Id="IDdraw_multiple_graphs.draw_multiple_graphTodraw_graph.draw_graph" Name="3" To="IDdraw_graph.draw_graph" />
+        <Usage From="IDdraw_multiple_graphs.draw_multiple_graph" Id="IDdraw_multiple_graphs.draw_multiple_graphTodraw_graphH3.draw_graphH3" Name="1" To="IDdraw_graphH3.draw_graphH3" />
+        <Usage From="IDdraw_multiple_graphs.main" Id="IDdraw_multiple_graphs.mainTodraw_graph.main" Name="1" To="IDdraw_graph.main" />
+        <Usage From="IDdraw_multiple_graphs.main" Id="IDdraw_multiple_graphs.mainTodraw_graphH3.main" Name="1" To="IDdraw_graphH3.main" />
+        <Usage From="IDdraw_multiple_graphs.main" Id="IDdraw_multiple_graphs.mainTodraw_multiple_graphs.draw_multiple_graph" Name="1" To="IDdraw_multiple_graphs.draw_multiple_graph" />
+        <Usage From="IDh5.main" Id="IDh5.mainToget_module_usage.main" Name="4" To="IDget_module_usage.main" />
+        <Usage From="IDh5.main" Id="IDh5.mainToget_function_usage.main" Name="4" To="IDget_function_usage.main" />
+        <Usage From="IDh5.main" Id="IDh5.mainToget_modules_structure.main" Name="4" To="IDget_modules_structure.main" />
+        <Usage From="IDh5.main" Id="IDh5.mainTodraw_multiple_graphs.draw_multiple_graph" Name="1" To="IDdraw_multiple_graphs.draw_multiple_graph" />
+        <Usage From="IDh5.main" Id="IDh5.mainTodraw_multiple_graphs.main" Name="4" To="IDdraw_multiple_graphs.main" />
+        <Usage From="IDdraw_graphH6.main" Id="IDdraw_graphH6.mainTodraw_graphH6.draw_graphH6" Name="1" To="IDdraw_graphH6.draw_graphH6" />
+        <Usage From="IDget_functions_in_files.get_function_data" Id="IDget_functions_in_files.get_function_dataToget_functions_in_files.main" Name="2" To="IDget_functions_in_files.main" />
+        <Usage From="IDget_functions_in_files.main" Id="IDget_functions_in_files.mainToget_file_paths.get_paths" Name="1" To="IDget_file_paths.get_paths" />
+        <Usage From="IDget_functions_in_files.main" Id="IDget_functions_in_files.mainToget_functions_in_files.get_function_data" Name="1" To="IDget_functions_in_files.get_function_data" />
+        <Usage From="IDh6.main" Id="IDh6.mainToget_file_paths.get_paths" Name="1" To="IDget_file_paths.get_paths" />
+        <Usage From="IDh6.main" Id="IDh6.mainTodraw_graphH6.main" Name="3" To="IDdraw_graphH6.main" />
+        <Usage From="IDh6.main" Id="IDh6.mainToget_functions_in_files.get_function_data" Name="1" To="IDget_functions_in_files.get_function_data" />
+        <Usage From="IDh6.main" Id="IDh6.mainToget_functions_in_files.main" Name="3" To="IDget_functions_in_files.main" />
+      </ModelChildren>
+    </ModelRelationshipContainer>
+    <Package name="xmlH2">
+      <ModelChildren>
+        <Class Id="IDIO.buttonbox" Name="IO.buttonbox">
+          <ModelChildren>
+            <Attribute Id="IDAtrrIO.buttonbox" InitialValue="1324" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDIO.main" Name="IO.main">
+          <ModelChildren>
+            <Attribute Id="IDAtrrIO.main" InitialValue="603" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDdraw_graph.draw_graph" Name="draw_graph.draw_graph">
+          <ModelChildren>
+            <Attribute Id="IDAtrrdraw_graph.draw_graph" InitialValue="2177" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDdraw_graph.main" Name="draw_graph.main">
+          <ModelChildren>
+            <Attribute Id="IDAtrrdraw_graph.main" InitialValue="51" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_file_paths.get_paths" Name="get_file_paths.get_paths">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_file_paths.get_paths" InitialValue="790" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_module_usage.get_files_with_modules" Name="get_module_usage.get_files_with_modules">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_module_usage.get_files_with_modules" InitialValue="1530" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_module_usage.get_node_data" Name="get_module_usage.get_node_data">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_module_usage.get_node_data" InitialValue="1193" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_module_usage.main" Name="get_module_usage.main">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_module_usage.main" InitialValue="284" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDh1.main" Name="h1.main">
+          <ModelChildren>
+            <Attribute Id="IDAtrrh1.main" InitialValue="318" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_function_usage.get_function_data" Name="get_function_usage.get_function_data">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_function_usage.get_function_data" InitialValue="1049" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_function_usage.getmembers" Name="get_function_usage.getmembers">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_function_usage.getmembers" InitialValue="1673" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_function_usage.getsource" Name="get_function_usage.getsource">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_function_usage.getsource" InitialValue="363" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_function_usage.isfunction" Name="get_function_usage.isfunction">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_function_usage.isfunction" InitialValue="637" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_function_usage.main" Name="get_function_usage.main">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_function_usage.main" InitialValue="199" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDh2.main" Name="h2.main">
+          <ModelChildren>
+            <Attribute Id="IDAtrrh2.main" InitialValue="358" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDdraw_graphH3.draw_graphH3" Name="draw_graphH3.draw_graphH3">
+          <ModelChildren>
+            <Attribute Id="IDAtrrdraw_graphH3.draw_graphH3" InitialValue="2865" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDdraw_graphH3.main" Name="draw_graphH3.main">
+          <ModelChildren>
+            <Attribute Id="IDAtrrdraw_graphH3.main" InitialValue="52" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_modules_structure.get_directories_name" Name="get_modules_structure.get_directories_name">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_modules_structure.get_directories_name" InitialValue="235" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_modules_structure.get_files_data" Name="get_modules_structure.get_files_data">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_modules_structure.get_files_data" InitialValue="844" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_modules_structure.get_modules_structure" Name="get_modules_structure.get_modules_structure">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_modules_structure.get_modules_structure" InitialValue="646" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_modules_structure.getmembers" Name="get_modules_structure.getmembers">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_modules_structure.getmembers" InitialValue="1673" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_modules_structure.getsource" Name="get_modules_structure.getsource">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_modules_structure.getsource" InitialValue="363" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_modules_structure.isfunction" Name="get_modules_structure.isfunction">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_modules_structure.isfunction" InitialValue="637" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_modules_structure.main" Name="get_modules_structure.main">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_modules_structure.main" InitialValue="75" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_paths.get_modules_for_each_path" Name="get_paths.get_modules_for_each_path">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_paths.get_modules_for_each_path" InitialValue="432" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_paths.get_paths" Name="get_paths.get_paths">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_paths.get_paths" InitialValue="673" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDh3.main" Name="h3.main">
+          <ModelChildren>
+            <Attribute Id="IDAtrrh3.main" InitialValue="572" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDreader.indent_pos" Name="reader.indent_pos">
+          <ModelChildren>
+            <Attribute Id="IDAtrrreader.indent_pos" InitialValue="64" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDreader.parse_file" Name="reader.parse_file">
+          <ModelChildren>
+            <Attribute Id="IDAtrrreader.parse_file" InitialValue="2009" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDexport_to_xml.export_to_xml_H1_H2" Name="export_to_xml.export_to_xml_H1_H2">
+          <ModelChildren>
+            <Attribute Id="IDAtrrexport_to_xml.export_to_xml_H1_H2" InitialValue="2474" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDexport_to_xml.export_to_xml_H3" Name="export_to_xml.export_to_xml_H3">
+          <ModelChildren>
+            <Attribute Id="IDAtrrexport_to_xml.export_to_xml_H3" InitialValue="3655" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDexport_to_xml.indent" Name="export_to_xml.indent">
+          <ModelChildren>
+            <Attribute Id="IDAtrrexport_to_xml.indent" InitialValue="515" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDexport_to_xml.main" Name="export_to_xml.main">
+          <ModelChildren>
+            <Attribute Id="IDAtrrexport_to_xml.main" InitialValue="208" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDh4.main" Name="h4.main">
+          <ModelChildren>
+            <Attribute Id="IDAtrrh4.main" InitialValue="788" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDdraw_multiple_graphs.draw_multiple_graph" Name="draw_multiple_graphs.draw_multiple_graph">
+          <ModelChildren>
+            <Attribute Id="IDAtrrdraw_multiple_graphs.draw_multiple_graph" InitialValue="313" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDdraw_multiple_graphs.main" Name="draw_multiple_graphs.main">
+          <ModelChildren>
+            <Attribute Id="IDAtrrdraw_multiple_graphs.main" InitialValue="90" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDh5.main" Name="h5.main">
+          <ModelChildren>
+            <Attribute Id="IDAtrrh5.main" InitialValue="423" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDdraw_graphH6.draw_graphH6" Name="draw_graphH6.draw_graphH6">
+          <ModelChildren>
+            <Attribute Id="IDAtrrdraw_graphH6.draw_graphH6" InitialValue="1657" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDdraw_graphH6.main" Name="draw_graphH6.main">
+          <ModelChildren>
+            <Attribute Id="IDAtrrdraw_graphH6.main" InitialValue="52" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_functions_in_files.get_function_data" Name="get_functions_in_files.get_function_data">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_functions_in_files.get_function_data" InitialValue="810" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_functions_in_files.main" Name="get_functions_in_files.main">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_functions_in_files.main" InitialValue="249" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDh6.main" Name="h6.main">
+          <ModelChildren>
+            <Attribute Id="IDAtrrh6.main" InitialValue="427" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+      </ModelChildren>
+    </Package>
+  </Models>
+  <Diagrams>
+    <ClassDiagram name="xmlH2">
+      <Shapes>
+        <Class Id="IDShapeIO.buttonbox" Model="IDIO.buttonbox" Name="IO.buttonbox" />
+        <Class Id="IDShapeIO.main" Model="IDIO.main" Name="IO.main" />
+        <Class Id="IDShapedraw_graph.draw_graph" Model="IDdraw_graph.draw_graph" Name="draw_graph.draw_graph" />
+        <Class Id="IDShapedraw_graph.main" Model="IDdraw_graph.main" Name="draw_graph.main" />
+        <Class Id="IDShapeget_file_paths.get_paths" Model="IDget_file_paths.get_paths" Name="get_file_paths.get_paths" />
+        <Class Id="IDShapeget_module_usage.get_files_with_modules" Model="IDget_module_usage.get_files_with_modules" Name="get_module_usage.get_files_with_modules" />
+        <Class Id="IDShapeget_module_usage.get_node_data" Model="IDget_module_usage.get_node_data" Name="get_module_usage.get_node_data" />
+        <Class Id="IDShapeget_module_usage.main" Model="IDget_module_usage.main" Name="get_module_usage.main" />
+        <Class Id="IDShapeh1.main" Model="IDh1.main" Name="h1.main" />
+        <Class Id="IDShapeget_function_usage.get_function_data" Model="IDget_function_usage.get_function_data" Name="get_function_usage.get_function_data" />
+        <Class Id="IDShapeget_function_usage.getmembers" Model="IDget_function_usage.getmembers" Name="get_function_usage.getmembers" />
+        <Class Id="IDShapeget_function_usage.getsource" Model="IDget_function_usage.getsource" Name="get_function_usage.getsource" />
+        <Class Id="IDShapeget_function_usage.isfunction" Model="IDget_function_usage.isfunction" Name="get_function_usage.isfunction" />
+        <Class Id="IDShapeget_function_usage.main" Model="IDget_function_usage.main" Name="get_function_usage.main" />
+        <Class Id="IDShapeh2.main" Model="IDh2.main" Name="h2.main" />
+        <Class Id="IDShapedraw_graphH3.draw_graphH3" Model="IDdraw_graphH3.draw_graphH3" Name="draw_graphH3.draw_graphH3" />
+        <Class Id="IDShapedraw_graphH3.main" Model="IDdraw_graphH3.main" Name="draw_graphH3.main" />
+        <Class Id="IDShapeget_modules_structure.get_directories_name" Model="IDget_modules_structure.get_directories_name" Name="get_modules_structure.get_directories_name" />
+        <Class Id="IDShapeget_modules_structure.get_files_data" Model="IDget_modules_structure.get_files_data" Name="get_modules_structure.get_files_data" />
+        <Class Id="IDShapeget_modules_structure.get_modules_structure" Model="IDget_modules_structure.get_modules_structure" Name="get_modules_structure.get_modules_structure" />
+        <Class Id="IDShapeget_modules_structure.getmembers" Model="IDget_modules_structure.getmembers" Name="get_modules_structure.getmembers" />
+        <Class Id="IDShapeget_modules_structure.getsource" Model="IDget_modules_structure.getsource" Name="get_modules_structure.getsource" />
+        <Class Id="IDShapeget_modules_structure.isfunction" Model="IDget_modules_structure.isfunction" Name="get_modules_structure.isfunction" />
+        <Class Id="IDShapeget_modules_structure.main" Model="IDget_modules_structure.main" Name="get_modules_structure.main" />
+        <Class Id="IDShapeget_paths.get_modules_for_each_path" Model="IDget_paths.get_modules_for_each_path" Name="get_paths.get_modules_for_each_path" />
+        <Class Id="IDShapeget_paths.get_paths" Model="IDget_paths.get_paths" Name="get_paths.get_paths" />
+        <Class Id="IDShapeh3.main" Model="IDh3.main" Name="h3.main" />
+        <Class Id="IDShapereader.indent_pos" Model="IDreader.indent_pos" Name="reader.indent_pos" />
+        <Class Id="IDShapereader.parse_file" Model="IDreader.parse_file" Name="reader.parse_file" />
+        <Class Id="IDShapeexport_to_xml.export_to_xml_H1_H2" Model="IDexport_to_xml.export_to_xml_H1_H2" Name="export_to_xml.export_to_xml_H1_H2" />
+        <Class Id="IDShapeexport_to_xml.export_to_xml_H3" Model="IDexport_to_xml.export_to_xml_H3" Name="export_to_xml.export_to_xml_H3" />
+        <Class Id="IDShapeexport_to_xml.indent" Model="IDexport_to_xml.indent" Name="export_to_xml.indent" />
+        <Class Id="IDShapeexport_to_xml.main" Model="IDexport_to_xml.main" Name="export_to_xml.main" />
+        <Class Id="IDShapeh4.main" Model="IDh4.main" Name="h4.main" />
+        <Class Id="IDShapedraw_multiple_graphs.draw_multiple_graph" Model="IDdraw_multiple_graphs.draw_multiple_graph" Name="draw_multiple_graphs.draw_multiple_graph" />
+        <Class Id="IDShapedraw_multiple_graphs.main" Model="IDdraw_multiple_graphs.main" Name="draw_multiple_graphs.main" />
+        <Class Id="IDShapeh5.main" Model="IDh5.main" Name="h5.main" />
+        <Class Id="IDShapedraw_graphH6.draw_graphH6" Model="IDdraw_graphH6.draw_graphH6" Name="draw_graphH6.draw_graphH6" />
+        <Class Id="IDShapedraw_graphH6.main" Model="IDdraw_graphH6.main" Name="draw_graphH6.main" />
+        <Class Id="IDShapeget_functions_in_files.get_function_data" Model="IDget_functions_in_files.get_function_data" Name="get_functions_in_files.get_function_data" />
+        <Class Id="IDShapeget_functions_in_files.main" Model="IDget_functions_in_files.main" Name="get_functions_in_files.main" />
+        <Class Id="IDShapeh6.main" Model="IDh6.main" Name="h6.main" />
+      </Shapes>
+      <Connectors>
+        <Usage From="IDShapeIO.main" Model="IDIO.mainToIO.buttonbox" To="IDShapeIO.buttonbox" />
+        <Usage From="IDShapeIO.main" Model="IDIO.mainToh1.main" To="IDShapeh1.main" />
+        <Usage From="IDShapeIO.main" Model="IDIO.mainToh2.main" To="IDShapeh2.main" />
+        <Usage From="IDShapeIO.main" Model="IDIO.mainToh3.main" To="IDShapeh3.main" />
+        <Usage From="IDShapeIO.main" Model="IDIO.mainToh4.main" To="IDShapeh4.main" />
+        <Usage From="IDShapeIO.main" Model="IDIO.mainToh5.main" To="IDShapeh5.main" />
+        <Usage From="IDShapeIO.main" Model="IDIO.mainToh6.main" To="IDShapeh6.main" />
+        <Usage From="IDShapedraw_graph.main" Model="IDdraw_graph.mainTodraw_graph.draw_graph" To="IDShapedraw_graph.draw_graph" />
+        <Usage From="IDShapedraw_graph.main" Model="IDdraw_graph.mainToget_module_usage.main" To="IDShapeget_module_usage.main" />
+        <Usage From="IDShapeget_module_usage.get_files_with_modules" Model="IDget_module_usage.get_files_with_modulesToget_file_paths.get_paths" To="IDShapeget_file_paths.get_paths" />
+        <Usage From="IDShapeget_module_usage.main" Model="IDget_module_usage.mainToget_module_usage.get_files_with_modules" To="IDShapeget_module_usage.get_files_with_modules" />
+        <Usage From="IDShapeget_module_usage.main" Model="IDget_module_usage.mainToget_module_usage.get_node_data" To="IDShapeget_module_usage.get_node_data" />
+        <Usage From="IDShapeh1.main" Model="IDh1.mainTodraw_graph.main" To="IDShapedraw_graph.main" />
+        <Usage From="IDShapeh1.main" Model="IDh1.mainToget_module_usage.main" To="IDShapeget_module_usage.main" />
+        <Usage From="IDShapeget_function_usage.get_function_data" Model="IDget_function_usage.get_function_dataToget_function_usage.getmembers" To="IDShapeget_function_usage.getmembers" />
+        <Usage From="IDShapeget_function_usage.get_function_data" Model="IDget_function_usage.get_function_dataToget_function_usage.getsource" To="IDShapeget_function_usage.getsource" />
+        <Usage From="IDShapeget_function_usage.get_function_data" Model="IDget_function_usage.get_function_dataToget_function_usage.isfunction" To="IDShapeget_function_usage.isfunction" />
+        <Usage From="IDShapeget_function_usage.main" Model="IDget_function_usage.mainToget_file_paths.get_paths" To="IDShapeget_file_paths.get_paths" />
+        <Usage From="IDShapeget_function_usage.main" Model="IDget_function_usage.mainToget_function_usage.get_function_data" To="IDShapeget_function_usage.get_function_data" />
+        <Usage From="IDShapeh2.main" Model="IDh2.mainTodraw_graph.main" To="IDShapedraw_graph.main" />
+        <Usage From="IDShapeh2.main" Model="IDh2.mainToget_function_usage.main" To="IDShapeget_function_usage.main" />
+        <Usage From="IDShapedraw_graphH3.main" Model="IDdraw_graphH3.mainTodraw_graphH3.draw_graphH3" To="IDShapedraw_graphH3.draw_graphH3" />
+        <Usage From="IDShapeget_modules_structure.get_files_data" Model="IDget_modules_structure.get_files_dataToget_function_usage.getmembers" To="IDShapeget_function_usage.getmembers" />
+        <Usage From="IDShapeget_modules_structure.get_files_data" Model="IDget_modules_structure.get_files_dataToget_function_usage.isfunction" To="IDShapeget_function_usage.isfunction" />
+        <Usage From="IDShapeget_modules_structure.get_files_data" Model="IDget_modules_structure.get_files_dataToget_modules_structure.getmembers" To="IDShapeget_modules_structure.getmembers" />
+        <Usage From="IDShapeget_modules_structure.get_files_data" Model="IDget_modules_structure.get_files_dataToget_modules_structure.isfunction" To="IDShapeget_modules_structure.isfunction" />
+        <Usage From="IDShapeget_modules_structure.get_modules_structure" Model="IDget_modules_structure.get_modules_structureToget_modules_structure.get_directories_name" To="IDShapeget_modules_structure.get_directories_name" />
+        <Usage From="IDShapeget_modules_structure.get_modules_structure" Model="IDget_modules_structure.get_modules_structureToget_modules_structure.get_files_data" To="IDShapeget_modules_structure.get_files_data" />
+        <Usage From="IDShapeget_modules_structure.get_modules_structure" Model="IDget_modules_structure.get_modules_structureToget_paths.get_modules_for_each_path" To="IDShapeget_paths.get_modules_for_each_path" />
+        <Usage From="IDShapeget_modules_structure.get_modules_structure" Model="IDget_modules_structure.get_modules_structureToget_paths.get_paths" To="IDShapeget_paths.get_paths" />
+        <Usage From="IDShapeget_modules_structure.getmembers" Model="IDget_modules_structure.getmembersToget_function_usage.getmembers" To="IDShapeget_function_usage.getmembers" />
+        <Usage From="IDShapeget_modules_structure.getsource" Model="IDget_modules_structure.getsourceToget_function_usage.getsource" To="IDShapeget_function_usage.getsource" />
+        <Usage From="IDShapeget_modules_structure.isfunction" Model="IDget_modules_structure.isfunctionToget_function_usage.isfunction" To="IDShapeget_function_usage.isfunction" />
+        <Usage From="IDShapeget_modules_structure.main" Model="IDget_modules_structure.mainToget_function_usage.main" To="IDShapeget_function_usage.main" />
+        <Usage From="IDShapeget_modules_structure.main" Model="IDget_modules_structure.mainToget_modules_structure.get_modules_structure" To="IDShapeget_modules_structure.get_modules_structure" />
+        <Usage From="IDShapeh3.main" Model="IDh3.mainTodraw_graphH3.draw_graphH3" To="IDShapedraw_graphH3.draw_graphH3" />
+        <Usage From="IDShapeh3.main" Model="IDh3.mainTodraw_graphH3.main" To="IDShapedraw_graphH3.main" />
+        <Usage From="IDShapeh3.main" Model="IDh3.mainToget_modules_structure.get_modules_structure" To="IDShapeget_modules_structure.get_modules_structure" />
+        <Usage From="IDShapeh3.main" Model="IDh3.mainToget_modules_structure.main" To="IDShapeget_modules_structure.main" />
+        <Usage From="IDShapeh3.main" Model="IDh3.mainToget_paths.get_modules_for_each_path" To="IDShapeget_paths.get_modules_for_each_path" />
+        <Usage From="IDShapeh3.main" Model="IDh3.mainToget_paths.get_paths" To="IDShapeget_paths.get_paths" />
+        <Usage From="IDShapeh3.main" Model="IDh3.mainToreader.parse_file" To="IDShapereader.parse_file" />
+        <Usage From="IDShapereader.parse_file" Model="IDreader.parse_fileToreader.indent_pos" To="IDShapereader.indent_pos" />
+        <Usage From="IDShapeexport_to_xml.export_to_xml_H1_H2" Model="IDexport_to_xml.export_to_xml_H1_H2Toexport_to_xml.indent" To="IDShapeexport_to_xml.indent" />
+        <Usage From="IDShapeexport_to_xml.export_to_xml_H3" Model="IDexport_to_xml.export_to_xml_H3Toexport_to_xml.indent" To="IDShapeexport_to_xml.indent" />
+        <Usage From="IDShapeexport_to_xml.main" Model="IDexport_to_xml.mainToexport_to_xml.export_to_xml_H1_H2" To="IDShapeexport_to_xml.export_to_xml_H1_H2" />
+        <Usage From="IDShapeexport_to_xml.main" Model="IDexport_to_xml.mainToexport_to_xml.export_to_xml_H3" To="IDShapeexport_to_xml.export_to_xml_H3" />
+        <Usage From="IDShapeh4.main" Model="IDh4.mainToget_module_usage.main" To="IDShapeget_module_usage.main" />
+        <Usage From="IDShapeh4.main" Model="IDh4.mainToget_function_usage.main" To="IDShapeget_function_usage.main" />
+        <Usage From="IDShapeh4.main" Model="IDh4.mainToget_modules_structure.main" To="IDShapeget_modules_structure.main" />
+        <Usage From="IDShapeh4.main" Model="IDh4.mainToexport_to_xml.main" To="IDShapeexport_to_xml.main" />
+        <Usage From="IDShapedraw_multiple_graphs.draw_multiple_graph" Model="IDdraw_multiple_graphs.draw_multiple_graphTodraw_graph.draw_graph" To="IDShapedraw_graph.draw_graph" />
+        <Usage From="IDShapedraw_multiple_graphs.draw_multiple_graph" Model="IDdraw_multiple_graphs.draw_multiple_graphTodraw_graphH3.draw_graphH3" To="IDShapedraw_graphH3.draw_graphH3" />
+        <Usage From="IDShapedraw_multiple_graphs.main" Model="IDdraw_multiple_graphs.mainTodraw_graph.main" To="IDShapedraw_graph.main" />
+        <Usage From="IDShapedraw_multiple_graphs.main" Model="IDdraw_multiple_graphs.mainTodraw_graphH3.main" To="IDShapedraw_graphH3.main" />
+        <Usage From="IDShapedraw_multiple_graphs.main" Model="IDdraw_multiple_graphs.mainTodraw_multiple_graphs.draw_multiple_graph" To="IDShapedraw_multiple_graphs.draw_multiple_graph" />
+        <Usage From="IDShapeh5.main" Model="IDh5.mainToget_module_usage.main" To="IDShapeget_module_usage.main" />
+        <Usage From="IDShapeh5.main" Model="IDh5.mainToget_function_usage.main" To="IDShapeget_function_usage.main" />
+        <Usage From="IDShapeh5.main" Model="IDh5.mainToget_modules_structure.main" To="IDShapeget_modules_structure.main" />
+        <Usage From="IDShapeh5.main" Model="IDh5.mainTodraw_multiple_graphs.draw_multiple_graph" To="IDShapedraw_multiple_graphs.draw_multiple_graph" />
+        <Usage From="IDShapeh5.main" Model="IDh5.mainTodraw_multiple_graphs.main" To="IDShapedraw_multiple_graphs.main" />
+        <Usage From="IDShapedraw_graphH6.main" Model="IDdraw_graphH6.mainTodraw_graphH6.draw_graphH6" To="IDShapedraw_graphH6.draw_graphH6" />
+        <Usage From="IDShapeget_functions_in_files.get_function_data" Model="IDget_functions_in_files.get_function_dataToget_functions_in_files.main" To="IDShapeget_functions_in_files.main" />
+        <Usage From="IDShapeget_functions_in_files.main" Model="IDget_functions_in_files.mainToget_file_paths.get_paths" To="IDShapeget_file_paths.get_paths" />
+        <Usage From="IDShapeget_functions_in_files.main" Model="IDget_functions_in_files.mainToget_functions_in_files.get_function_data" To="IDShapeget_functions_in_files.get_function_data" />
+        <Usage From="IDShapeh6.main" Model="IDh6.mainToget_file_paths.get_paths" To="IDShapeget_file_paths.get_paths" />
+        <Usage From="IDShapeh6.main" Model="IDh6.mainTodraw_graphH6.main" To="IDShapedraw_graphH6.main" />
+        <Usage From="IDShapeh6.main" Model="IDh6.mainToget_functions_in_files.get_function_data" To="IDShapeget_functions_in_files.get_function_data" />
+        <Usage From="IDShapeh6.main" Model="IDh6.mainToget_functions_in_files.main" To="IDShapeget_functions_in_files.main" />
+      </Connectors>
+    </ClassDiagram>
+  </Diagrams>
+</Project>

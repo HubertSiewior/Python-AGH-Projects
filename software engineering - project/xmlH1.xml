@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project Xml_structure="simple">
+  <Models>
+    <ModelRelationshipContainer>
+      <ModelChildren>
+        <Usage From="IDdraw_graph.py" Id="IDdraw_graph.pyToget_module_usage.py" Name="2" To="IDget_module_usage.py" />
+        <Usage From="IDget_module_usage.py" Id="IDget_module_usage.pyToget_file_paths.py" Name="3" To="IDget_file_paths.py" />
+        <Usage From="IDh1.py" Id="IDh1.pyTodraw_graph.py" Name="2" To="IDdraw_graph.py" />
+        <Usage From="IDh1.py" Id="IDh1.pyToget_module_usage.py" Name="2" To="IDget_module_usage.py" />
+        <Usage From="IDget_function_usage.py" Id="IDget_function_usage.pyToget_file_paths.py" Name="1" To="IDget_file_paths.py" />
+        <Usage From="IDh2.py" Id="IDh2.pyTodraw_graph.py" Name="1" To="IDdraw_graph.py" />
+        <Usage From="IDh2.py" Id="IDh2.pyToget_function_usage.py" Name="1" To="IDget_function_usage.py" />
+        <Usage From="IDget_modules_structure.py" Id="IDget_modules_structure.pyToget_function_usage.py" Name="2" To="IDget_function_usage.py" />
+        <Usage From="IDget_modules_structure.py" Id="IDget_modules_structure.pyToFile.py" Name="3" To="IDFile.py" />
+        <Usage From="IDget_modules_structure.py" Id="IDget_modules_structure.pyToFunction.py" Name="2" To="IDFunction.py" />
+        <Usage From="IDget_modules_structure.py" Id="IDget_modules_structure.pyToget_paths.py" Name="3" To="IDget_paths.py" />
+        <Usage From="IDh3.py" Id="IDh3.pyToFile.py" Name="5" To="IDFile.py" />
+        <Usage From="IDh3.py" Id="IDh3.pyTodraw_graphH3.py" Name="5" To="IDdraw_graphH3.py" />
+        <Usage From="IDh3.py" Id="IDh3.pyToget_modules_structure.py" Name="1" To="IDget_modules_structure.py" />
+        <Usage From="IDh3.py" Id="IDh3.pyToget_paths.py" Name="5" To="IDget_paths.py" />
+        <Usage From="IDh3.py" Id="IDh3.pyToreader.py" Name="5" To="IDreader.py" />
+        <Usage From="IDreader.py" Id="IDreader.pyToFunction.py" Name="1" To="IDFunction.py" />
+        <Usage From="IDh4.py" Id="IDh4.pyToget_function_usage.py" Name="1" To="IDget_function_usage.py" />
+        <Usage From="IDh4.py" Id="IDh4.pyToget_modules_structure.py" Name="1" To="IDget_modules_structure.py" />
+        <Usage From="IDh4.py" Id="IDh4.pyToexport_to_xml.py" Name="1" To="IDexport_to_xml.py" />
+        <Usage From="IDdraw_multiple_graphs.py" Id="IDdraw_multiple_graphs.pyTodraw_graph.py" Name="1" To="IDdraw_graph.py" />
+        <Usage From="IDdraw_multiple_graphs.py" Id="IDdraw_multiple_graphs.pyTodraw_graphH3.py" Name="1" To="IDdraw_graphH3.py" />
+        <Usage From="IDh5.py" Id="IDh5.pyToget_module_usage.py" Name="1" To="IDget_module_usage.py" />
+        <Usage From="IDh5.py" Id="IDh5.pyToget_function_usage.py" Name="1" To="IDget_function_usage.py" />
+        <Usage From="IDh5.py" Id="IDh5.pyToget_modules_structure.py" Name="1" To="IDget_modules_structure.py" />
+        <Usage From="IDh5.py" Id="IDh5.pyTodraw_multiple_graphs.py" Name="1" To="IDdraw_multiple_graphs.py" />
+        <Usage From="IDget_functions_in_files.py" Id="IDget_functions_in_files.pyToget_file_paths.py" Name="1" To="IDget_file_paths.py" />
+        <Usage From="IDh6.py" Id="IDh6.pyToget_file_paths.py" Name="1" To="IDget_file_paths.py" />
+        <Usage From="IDh6.py" Id="IDh6.pyTodraw_graphH6.py" Name="2" To="IDdraw_graphH6.py" />
+        <Usage From="IDh6.py" Id="IDh6.pyToget_functions_in_files.py" Name="2" To="IDget_functions_in_files.py" />
+        <Usage From="IDIO.py" Id="IDIO.pyToh2.py" Name="1" To="IDh2.py" />
+        <Usage From="IDIO.py" Id="IDIO.pyToh3.py" Name="1" To="IDh3.py" />
+        <Usage From="IDIO.py" Id="IDIO.pyToh4.py" Name="1" To="IDh4.py" />
+        <Usage From="IDIO.py" Id="IDIO.pyToh5.py" Name="1" To="IDh5.py" />
+        <Usage From="IDIO.py" Id="IDIO.pyToh6.py" Name="1" To="IDh6.py" />
+      </ModelChildren>
+    </ModelRelationshipContainer>
+    <Package name="xmlH1">
+      <ModelChildren>
+        <Class Id="IDdraw_graph.py" Name="draw_graph.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrdraw_graph.py" InitialValue="2905" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_file_paths.py" Name="get_file_paths.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_file_paths.py" InitialValue="962" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_module_usage.py" Name="get_module_usage.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_module_usage.py" InitialValue="9039" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDh1.py" Name="h1.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrh1.py" InitialValue="621" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_function_usage.py" Name="get_function_usage.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_function_usage.py" InitialValue="4357" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDh2.py" Name="h2.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrh2.py" InitialValue="673" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDFile.py" Name="File.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrFile.py" InitialValue="1910" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDFunction.py" Name="Function.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrFunction.py" InitialValue="1063" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDdraw_graphH3.py" Name="draw_graphH3.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrdraw_graphH3.py" InitialValue="4315" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_modules_structure.py" Name="get_modules_structure.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_modules_structure.py" InitialValue="2263" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_paths.py" Name="get_paths.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_paths.py" InitialValue="1154" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDh3.py" Name="h3.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrh3.py" InitialValue="824" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDreader.py" Name="reader.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrreader.py" InitialValue="2207" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDexport_to_xml.py" Name="export_to_xml.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrexport_to_xml.py" InitialValue="7804" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDh4.py" Name="h4.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrh4.py" InitialValue="1235" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDdraw_multiple_graphs.py" Name="draw_multiple_graphs.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrdraw_multiple_graphs.py" InitialValue="4005" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDh5.py" Name="h5.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrh5.py" InitialValue="831" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDdraw_functions_in_files_graph.py" Name="draw_functions_in_files_graph.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrdraw_functions_in_files_graph.py" InitialValue="0" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDdraw_graphH6.py" Name="draw_graphH6.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrdraw_graphH6.py" InitialValue="2845" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDget_functions_in_files.py" Name="get_functions_in_files.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrget_functions_in_files.py" InitialValue="1308" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDh6.py" Name="h6.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrh6.py" InitialValue="777" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+        <Class Id="IDIO.py" Name="IO.py">
+          <ModelChildren>
+            <Attribute Id="IDAtrrIO.py" InitialValue="1181" Name="Size" Type="int" />
+          </ModelChildren>
+        </Class>
+      </ModelChildren>
+    </Package>
+  </Models>
+  <Diagrams>
+    <ClassDiagram name="xmlH1">
+      <Shapes>
+        <Class Id="IDShapedraw_graph.py" Model="IDdraw_graph.py" Name="draw_graph.py" />
+        <Class Id="IDShapeget_file_paths.py" Model="IDget_file_paths.py" Name="get_file_paths.py" />
+        <Class Id="IDShapeget_module_usage.py" Model="IDget_module_usage.py" Name="get_module_usage.py" />
+        <Class Id="IDShapeh1.py" Model="IDh1.py" Name="h1.py" />
+        <Class Id="IDShapeget_function_usage.py" Model="IDget_function_usage.py" Name="get_function_usage.py" />
+        <Class Id="IDShapeh2.py" Model="IDh2.py" Name="h2.py" />
+        <Class Id="IDShapeFile.py" Model="IDFile.py" Name="File.py" />
+        <Class Id="IDShapeFunction.py" Model="IDFunction.py" Name="Function.py" />
+        <Class Id="IDShapedraw_graphH3.py" Model="IDdraw_graphH3.py" Name="draw_graphH3.py" />
+        <Class Id="IDShapeget_modules_structure.py" Model="IDget_modules_structure.py" Name="get_modules_structure.py" />
+        <Class Id="IDShapeget_paths.py" Model="IDget_paths.py" Name="get_paths.py" />
+        <Class Id="IDShapeh3.py" Model="IDh3.py" Name="h3.py" />
+        <Class Id="IDShapereader.py" Model="IDreader.py" Name="reader.py" />
+        <Class Id="IDShapeexport_to_xml.py" Model="IDexport_to_xml.py" Name="export_to_xml.py" />
+        <Class Id="IDShapeh4.py" Model="IDh4.py" Name="h4.py" />
+        <Class Id="IDShapedraw_multiple_graphs.py" Model="IDdraw_multiple_graphs.py" Name="draw_multiple_graphs.py" />
+        <Class Id="IDShapeh5.py" Model="IDh5.py" Name="h5.py" />
+        <Class Id="IDShapedraw_functions_in_files_graph.py" Model="IDdraw_functions_in_files_graph.py" Name="draw_functions_in_files_graph.py" />
+        <Class Id="IDShapedraw_graphH6.py" Model="IDdraw_graphH6.py" Name="draw_graphH6.py" />
+        <Class Id="IDShapeget_functions_in_files.py" Model="IDget_functions_in_files.py" Name="get_functions_in_files.py" />
+        <Class Id="IDShapeh6.py" Model="IDh6.py" Name="h6.py" />
+        <Class Id="IDShapeIO.py" Model="IDIO.py" Name="IO.py" />
+      </Shapes>
+      <Connectors>
+        <Usage From="IDShapedraw_graph.py" Model="IDdraw_graph.pyToget_module_usage.py" To="IDShapeget_module_usage.py" />
+        <Usage From="IDShapeget_module_usage.py" Model="IDget_module_usage.pyToget_file_paths.py" To="IDShapeget_file_paths.py" />
+        <Usage From="IDShapeh1.py" Model="IDh1.pyTodraw_graph.py" To="IDShapedraw_graph.py" />
+        <Usage From="IDShapeh1.py" Model="IDh1.pyToget_module_usage.py" To="IDShapeget_module_usage.py" />
+        <Usage From="IDShapeget_function_usage.py" Model="IDget_function_usage.pyToget_file_paths.py" To="IDShapeget_file_paths.py" />
+        <Usage From="IDShapeh2.py" Model="IDh2.pyTodraw_graph.py" To="IDShapedraw_graph.py" />
+        <Usage From="IDShapeh2.py" Model="IDh2.pyToget_function_usage.py" To="IDShapeget_function_usage.py" />
+        <Usage From="IDShapeget_modules_structure.py" Model="IDget_modules_structure.pyToget_function_usage.py" To="IDShapeget_function_usage.py" />
+        <Usage From="IDShapeget_modules_structure.py" Model="IDget_modules_structure.pyToFile.py" To="IDShapeFile.py" />
+        <Usage From="IDShapeget_modules_structure.py" Model="IDget_modules_structure.pyToFunction.py" To="IDShapeFunction.py" />
+        <Usage From="IDShapeget_modules_structure.py" Model="IDget_modules_structure.pyToget_paths.py" To="IDShapeget_paths.py" />
+        <Usage From="IDShapeh3.py" Model="IDh3.pyToFile.py" To="IDShapeFile.py" />
+        <Usage From="IDShapeh3.py" Model="IDh3.pyTodraw_graphH3.py" To="IDShapedraw_graphH3.py" />
+        <Usage From="IDShapeh3.py" Model="IDh3.pyToget_modules_structure.py" To="IDShapeget_modules_structure.py" />
+        <Usage From="IDShapeh3.py" Model="IDh3.pyToget_paths.py" To="IDShapeget_paths.py" />
+        <Usage From="IDShapeh3.py" Model="IDh3.pyToreader.py" To="IDShapereader.py" />
+        <Usage From="IDShapereader.py" Model="IDreader.pyToFunction.py" To="IDShapeFunction.py" />
+        <Usage From="IDShapeh4.py" Model="IDh4.pyToget_function_usage.py" To="IDShapeget_function_usage.py" />
+        <Usage From="IDShapeh4.py" Model="IDh4.pyToget_modules_structure.py" To="IDShapeget_modules_structure.py" />
+        <Usage From="IDShapeh4.py" Model="IDh4.pyToexport_to_xml.py" To="IDShapeexport_to_xml.py" />
+        <Usage From="IDShapedraw_multiple_graphs.py" Model="IDdraw_multiple_graphs.pyTodraw_graph.py" To="IDShapedraw_graph.py" />
+        <Usage From="IDShapedraw_multiple_graphs.py" Model="IDdraw_multiple_graphs.pyTodraw_graphH3.py" To="IDShapedraw_graphH3.py" />
+        <Usage From="IDShapeh5.py" Model="IDh5.pyToget_module_usage.py" To="IDShapeget_module_usage.py" />
+        <Usage From="IDShapeh5.py" Model="IDh5.pyToget_function_usage.py" To="IDShapeget_function_usage.py" />
+        <Usage From="IDShapeh5.py" Model="IDh5.pyToget_modules_structure.py" To="IDShapeget_modules_structure.py" />
+        <Usage From="IDShapeh5.py" Model="IDh5.pyTodraw_multiple_graphs.py" To="IDShapedraw_multiple_graphs.py" />
+        <Usage From="IDShapeget_functions_in_files.py" Model="IDget_functions_in_files.pyToget_file_paths.py" To="IDShapeget_file_paths.py" />
+        <Usage From="IDShapeh6.py" Model="IDh6.pyToget_file_paths.py" To="IDShapeget_file_paths.py" />
+        <Usage From="IDShapeh6.py" Model="IDh6.pyTodraw_graphH6.py" To="IDShapedraw_graphH6.py" />
+        <Usage From="IDShapeh6.py" Model="IDh6.pyToget_functions_in_files.py" To="IDShapeget_functions_in_files.py" />
+        <Usage From="IDShapeIO.py" Model="IDIO.pyToh2.py" To="IDShapeh2.py" />
+        <Usage From="IDShapeIO.py" Model="IDIO.pyToh3.py" To="IDShapeh3.py" />
+        <Usage From="IDShapeIO.py" Model="IDIO.pyToh4.py" To="IDShapeh4.py" />
+        <Usage From="IDShapeIO.py" Model="IDIO.pyToh5.py" To="IDShapeh5.py" />
+        <Usage From="IDShapeIO.py" Model="IDIO.pyToh6.py" To="IDShapeh6.py" />
+      </Connectors>
+    </ClassDiagram>
+  </Diagrams>
+</Project>
